@@ -1,0 +1,400 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.olb_frame {
+	background-color: red;
+	-webkit-clip-path: polygon(12% 0, 88% 0, 100% 12%, 100% 100%, 0 100%, 0 12%);
+	clip-path: polygon(12% 0, 88% 0, 100% 12%, 100% 100%, 0 100%, 0 12%);
+}
+/*Chrome,Safari
+-webkit-clip-path: polygon(2px 105px,13px 51px,46px 26px,93px 12px,171px 5px,275px 0px,468px 1px,686px 0px,808px 5px,873px 8px,917px 14px,948px 36px,959px 78px,958px 418px,1px 419px);*/
+/*Firefox
+clip-path: url("#clipPolygon");*/
+
+
+
+
+/* Inactive Tab Text color*/
+#login [role="tab"][aria-selected="false"] {color:#000;}
+
+
+/* Hover for Inactive Tab Text color*/
+#login [role="tab"][aria-selected="false"]:hover {color:#293589;}
+
+
+
+
+
+
+#login-form {
+    padding: 3px 0 12px 0px;
+    position: absolute;
+    z-index: 9999!important;
+	/*top:89px; *//* Remove for good???? L.A. */
+}
+
+
+
+.onlinebanking {
+	/*background: #114670;
+	border: 1px solid #114670;
+	box-shadow: 2px 2px 4px rgba(57, 57, 57, 0.5);
+	padding: 7% 5% 3% 5%;*/
+	width:270px; /* ???? L.A. */
+}
+.etabs {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	overflow: inherit;
+}
+.tab {
+	margin-top: -10px;
+	display: inline-block;
+	padding: 0 2.6%; /*chrome*/
+	min-width: 44%;
+	font-size: 0.9em;
+	background-color: #2f6680;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {/*chrome*/
+	.tab {
+		padding: 0 2.6%;
+	}
+}
+.tab:nth-of-type(1) {
+	/*-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0;
+	border-top-right-radius: 0;
+	*/
+}
+.tab:nth-of-type(2) {
+	/*-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-right-radius: 8px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius-topleft: 0;
+	border-top-left-radius: 0;
+	*/
+	color:#000; /* black text for unselected tab */
+}
+
+
+
+
+
+.tab a {
+	color: #000;
+	text-decoration: none;
+	padding: 1em;
+	line-height: 1.2em;
+	display: block;
+	outline: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.tab a:hover {
+	text-decoration: underline;
+}
+.tab.active {
+	margin-top: 0;
+	position: relative;
+	top: 1px;
+	background: #0a70bb;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-weight: bold;
+}
+.tab.active:nth-of-type(1) {
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0;
+	border-top-right-radius: 0;
+}
+.tab.active:nth-of-type(2) {
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-right-radius: 8px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius-topleft: 0;
+	border-top-left-radius: 0;
+}
+.tab-container .panel-container {
+	background: #0a70bb;
+	padding: 15% 6% 5% 6%;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.tab-container .panel-container a {
+	color: #000;
+}
+.panel-container {
+	margin-bottom: 10px;
+}
+.CEBEnroll {
+	margin: 15px 0 0 5px;
+}
+.CEBEnroll a:link, .CEBEnroll a:visited {
+	color: #fff;
+	text-decoration: underline;
+	font-size: 0.75em;
+}
+.CEBEnroll a:hover, .CEBEnroll a:active, .CEBEnroll a:focus {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.75em;
+}
+.CEBEnroll a:focus {
+	outline: solid 2px #2f6680!important;
+}
+.links {
+	padding: 0;
+	margin: -22px 0 0 52px;
+	text-align: right;
+	float: right;
+	position: absolute;
+	width: 70%;
+}
+.links a {
+	color: #005696!important;
+	font-size: .8em;
+	text-decoration: none;
+}
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px1px1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+.btn-block {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0
+}
+.btn-block + .btn-block {
+	margin-top: 5px
+}
+input[type=submit].btn-block, input[type=reset].btn-block, input[type=button].btn-block {
+	width: 100%
+}
+
+
+.loginButton {
+	background-color: #293589;
+	padding: 12px 0;
+	font-size: 1.1em;
+	position: relative;
+	/*margin-top: 11%!important;*/ /* Remove this for good?  L.A. */
+	color:#fff!important;
+	width: 240px;
+	border: none;
+	text-align: center;
+	font-family: 'Asap Condensed', sans-serif!important;
+}
+
+
+
+
+/* ////ORIGINAL BELOW //////  */
+/*
+.loginButton {
+	background-image: url("OLBlong.png");
+	background-repeat: no-repeat;
+	padding: 0 0 5px 0;
+	background-color: transparent;
+	position: relative;
+	margin-top: 1px !important;
+	color: transparent;
+	width: 180px;
+	border: none;
+}
+
+*/
+
+button.tab {
+	min-width: 49%;
+	text-decoration: none;
+	padding: 1em;
+	line-height: 1.2em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+button#olb_button:focus {
+	outline: none;
+}
+#login .tabs {
+	font-family: 'Roboto', sans-serif;
+}
+#login [role="tablist"] {
+	margin: 0 0 -0.1em;
+	overflow: visible;
+}
+#login [role="tab"] {
+	position: relative;
+	margin: 0;
+	border: 1px solid #dbdce7;/* Gray */
+	overflow: visible;
+	font-family: inherit;
+	font-size: .9em;
+	background: #dbdce7; /* Gray */
+}
+#login [role="tab"]:hover::before, #login [role="tab"]:focus::before, #login [role="tab"][aria-selected="true"]::before {
+	position: absolute;
+	bottom: 100%;
+	right: -1px;
+	left: -1px;
+	content: '';
+}
+#login [role="tab"][aria-selected="true"] {
+	background: #0a70bb; /* blue */
+	outline: 0;
+	color: #fff; /* ??? L.A. */
+	border: 1px solid #0a70bb; /* blue */
+}
+
+
+
+
+
+
+
+
+#login [role="tab"][aria-selected="true"]:not(:focus):not(:hover)::before {
+	border-top: 5px solid #0a70bb; /* annoying border top ??? */
+}
+#login [role="tab"][aria-selected="true"]::after {
+	position: absolute;
+	z-index: 3;
+	bottom: -1px;
+	right: 0;
+	left: 0;
+	height: 0.3em;
+	box-shadow: none;
+	content: '';
+}
+#login [role="tab"]:hover, #login [role="tab"]:focus {
+	outline: 0;
+	color: #000;
+} /* L.A. */
+
+
+#login [role="tab"]:hover, #login [role="tab"]:focus, #login [role="tab"]:active {
+	outline: 0;
+	color: #fff;
+}
+
+
+
+#login [role="tab"]:hover::before, #login [role="tab"]:focus::before {
+	border-color: #ffffff;
+}
+#login [role="tabpanel"] {
+	position: relative;
+	z-index: 2;
+	padding: 0.5em;
+	background: #0a70bb;
+	margin-bottom: 7px;
+}
+#login [role="tabpanel"]:focus {
+	outline: 0;
+}
+#login [role="tabpanel"]:focus::after {
+	position: absolute;
+	bottom: 0;
+	right: -1px;
+	left: -1px;
+	content: '';
+}
+#login [role="tabpanel"] p {
+	margin: 0;
+}
+#login [role="tabpanel"] * + p {
+	margin-top: 1em;
+}
+#login .user_name {
+	color: #000;
+	width: 96%;
+	height: 36px;
+	background: #fff;
+	border: none;
+	padding-left: 5px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	margin-right: 3px;
+	font-size: 0.9em;
+}
+#login .user_name:focus {
+	outline: solid 2px #2f6680;
+}
+#login .submit {
+	background: #293589;
+	width: 96%;
+	height: 34px;
+	color: #fff;
+	font-size: 1em;
+	font-weight: normal;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	display: block;margin-left: auto;margin-right: auto; /* centers the button */
+}
+#login .submit:hover {
+	background: #01a1c1;
+	font-family: 'Roboto', sans-serif;
+}
+#login .btn:focus {
+	outline: solid 2px #2f6680;
+}
+#login {
+	box-shadow: 0!important;
+    width:300px;
+    margin:0 auto;
+}
+.cebButton a, .bebButton a, .cebButton a:visited, .bebButton a:visited {
+	color: #fff;
+	font-size: .8em;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+.cebButton a:hover, .bebButton a:hover, .cebButton a:active, .bebButton a:active {
+	text-decoration: underline;
+}
+.cebButton, .bebButton {
+	background: #1e66a1;
+	width: 96%;
+	height: 25px;
+	padding-top: 1px;
+	border: none;
+	cursor: pointer;
+	margin: 10px auto;
+}
+.cebButton:hover, .bebButton:hover {
+	background: #4c878f;
+}
+.cebButton:focus, .bebButton:focus {
+	outline: solid 2px #2f6680;
+}
+
+.lockIcon{margin-top: -4px;}

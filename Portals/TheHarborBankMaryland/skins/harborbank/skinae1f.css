@@ -1,0 +1,2594 @@
+
+
+
+/********************P Custom*****************************/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=BenchNine:300,400,700');
+
+
+
+
+
+/*------------------------------------------------*/
+/*-----------------[Override]-----------------*/
+/*------------------------------------------------*/
+
+.TitleH2 {display:none;} 
+
+.navbar-toggler {background-color: #01a1c1;} /* Hamburger Menu Color !!!! */
+
+
+h1 {color: #7e7f7f;font-family: 'Barlow Condensed', sans-serif!important;font-weight: 500;margin-bottom:1.6rem!important;font-size: 3rem;}
+h2 {font-family: 'Open Sans', sans-serif!important;font-weight: 300;color:#000!important;font-size: 1.5rem!important;line-height: 1.3;}
+h3 {font-family: 'Open Sans Condensed', sans-serif!important;font-weight: 700;color:#40609a!important;}
+h5 {font-family: 'Raleway', sans-serif!important;color: #000!important;font-size: 1.05rem!important;font-weight:700!important;}
+h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2e72bd;
+    text-transform: uppercase;
+}
+h6 {color: #000!important;font-weight: 400;font-family: 'Open Sans', sans-serif!important;font-size: 0.75rem!important;letter-spacing: 0.5px;}
+
+p {font-size: 1em;}
+
+
+.bg-dark {background-color: #fff!important;box-shadow: 1px -9px 8px -5px rgba(186, 177, 177, 0.22);} /*Main menu background color !!!! */
+.bg-danger {
+ background-color:#FFF !important
+   
+}
+
+
+#dnn_dnnLOGO_imgLogo  {max-width: 100%}
+
+hr {
+    margin-top:2.5rem!important;
+    margin-bottom: 2.5rem!important;
+    border-top: 1px solid rgba(0,0,0,.2)!important;
+}
+
+
+th {color: #41709F;line-height: 23px;font-weight: 500;} /* Makes the headers blue in a table */
+.table td {font-size: 0.9em;}
+
+#dnn_ContentPane ul{ list-style: disc;}
+
+.btn {border-radius:0!important;}
+.btn.focus, .btn:focus {box-shadow: none!important;}
+
+
+/*------------------------------------------------*/
+/*-----------------[General]-----------------*/
+/*------------------------------------------------*/
+
+#dnn_ContentPane a{ text-decoration: underline;}  /*Main hyperlink */
+#dnn_ContentPane a:hover{ text-decoration: none;}
+
+
+#dnn_ContentPane a{color: #0060a9;}  /*Main hyperlink */
+#dnn_ContentPane a:hover{color: #3d8ac5;}
+
+
+#dnn_ContentPane ul, ol {margin-left: 34px;}
+#dnn_ContentPane li{padding-bottom: 5px;line-height: 21px;}
+
+
+/*Main hyperlink color */
+#contentOne a {
+    color: #0060a9;
+    text-decoration: none;
+    outline: 0;
+}
+
+#contentOne a:hover {
+    color: #1b75cf;
+    text-decoration: underline;
+    outline: 0;
+}
+
+
+/*------------------------------------------------*/
+/*-----------------[Header]-----------------*/
+/*------------------------------------------------*/
+
+/* Specifically for Open an Acc Button in header */
+/*#dnn_TopMiddleButton {margin-top: 44px;} */
+/* Specifically for Open an Acc Button in header */
+/*.loginForOpenAcc{padding:15px 30px;display: block;margin-left: auto;margin-right: auto;}*/
+
+
+
+
+/* ********* Sidebar menu Specific ********* */
+
+.subMenuHeader { background-color:#f5f5f5;width:100%;padding:30px 30px 13px 25px;clear:both;border-bottom:3px solid #fff;color:#242f7a;font-family: 'Asap Condensed', sans-serif!important;font-weight:600!important;font-size: 1.25em;}
+.subMenu { font-size: 0.9em;background-color:#f5f5f5;color:#000;width:100%;padding:5px 30px 5px 25px;clear:both;border-bottom:3px solid #fff;letter-spacing:0.5px;}
+.subMenu a{ background-color:#f5f5f5;color:#000!important;text-decoration:none;}
+.subMenu a:hover{ background-color:#f5f5f5;color:#01a1c1!important;text-decoration:none;}
+
+
+
+.card-body p {font-size: 0.95em!important;line-height: 20px;}
+
+
+/*
+#dnn_SidebarTwo {background-image: url("/Portals/TheHarborBankMaryland/Images/sidebarBackgroundGeneric1.jpg");
+height:400px;
+padding-top: 25px;
+padding-right: 20px;
+padding-left: 20px;
+margin-top:60px;
+background-size: cover;
+}
+*/
+
+.sidebarCTA {background-image: url("../../Images/sidebarBackgroundGeneric1.jpg");
+height:400px;
+padding-top: 25px;
+padding-right:15px;
+padding-left: 15px;
+margin-top:60px;
+background-size: cover;
+}
+
+.sidebarCTA  p {font-size: 0.9em!important;line-height: 20px;background-color:#fff;color:#000;padding:25px;}
+.sidebarCTA  a {font-weight:bold;}
+
+
+#dnn_SidebarTwo p {/*font-size: 0.9em!important;line-height: 20px;background-color: #2b3c75;color:#fff;padding:25px;*/}
+
+.card-body {background-color: #2b3c75!important;color:#fff;}
+.card-body p {background-color: #2b3c75!important;color:#fff;}
+
+#dnn_SidebarTwo .btn {padding: .120rem .75rem!important;font-size: 0.9rem!important;}
+
+
+
+#dnn_SidebarTwo h5 {
+    font-family: 'Asap Condensed', sans-serif!important;
+    color: #fff!important;
+	/*text-shadow: 2px 2px 1px #000;*/
+	background-color: transparent;
+    font-size: 1.3rem!important;
+    font-weight: 400!important;
+}
+
+
+
+/*------------------------------------------------*/
+/*-----------------[Subpage]-----------------*/
+/*------------------------------------------------*/
+
+
+
+.list-group-item-info {
+ color:#fff !important;;
+ background-color: #f2f4f4;
+  border-color: #fff;
+}
+.list-group-item-info.list-group-item-action:focus,
+.list-group-item-info.list-group-item-action:hover {
+ color:#fff !important;;
+ background-color:#ececec!important;
+}
+.list-group-item-info.list-group-item-action.active {
+ color:#fff;
+ background-color:#fff;
+ border-color:#fff !important;
+}
+
+
+
+#dnn_hpNarrowPane0One, #dnn_hpNarrowPane25One, #dnn_hpNarrowPane50One, #dnn_hpNarrowPane75One {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;  
+}
+
+
+#dnn_hpLeftHalfPaneOne h3 { 
+  color: #fff !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2.5em
+  
+}
+
+
+#dnn_hpRightHalfPaneOne img  {margin-bottom: -26px; }
+
+
+.appButtonFooter {margin-top:5px;margin-left: 15px;float: right;}
+.downloadApp {margin: 15px 20px 20px 0;float:left;}
+
+.fa-check {color:#096;}
+
+
+
+/*----------------------*
+ |      Footer   	|
+ *----------------------*/
+
+
+#FooterContainer h5 {color: #fff!important;font-size:1em;font-weight:600;}
+#FooterRow {/*padding-top: 50px;*/padding-bottom: 50px;}
+
+.copyRText {text-align:left;font-size: 0.75em;padding-top:9px;padding-bottom: 18px;}
+
+
+.footerImages {float:right;margin-left:12px;}
+
+
+.bg-primary {
+  background-color: #e6e6e6 !important;
+}
+
+body {
+  overflow-x: hidden
+}
+.p-4 {
+  padding: 10px 40px !important;
+  
+}
+
+
+/*--------------------------*
+ |     Homepage MinMenu Top	|
+ *--------------------------*/
+.topMiniMenuPane {background-color:#eeeeee;}
+.topBar {text-align: right;padding-top:12px;padding-bottom:12px;font-size: 0.85em;}
+.topBar a{color:#343434!important;text-decoration:none!important;}
+.topBar a:hover{text-decoration:underline!important;}
+.topBarLinks {padding-right: 10px;display: inline;}
+#TopMenu {}
+
+
+.miniAlert {text-align:left;padding-top:9px;font-size: 0.85em!important;}
+
+
+
+a.bookAppointment{
+    color: #EB0000!important;
+    text-decoration: none!important;
+    font-weight: 600!important;
+    background-color:transparent;
+}
+a.bookAppointment:hover{
+	color: #000!important;
+	background-color:transparent;
+	text-decoration:underline!important;
+}
+
+
+/*----------------------------------*
+ |     Homepage CD Promotion Top	|
+ *---------------------------------*/
+
+#dnn_CDPromo {padding:10px 0;}
+
+.PromoLeft {color:#fff;background-color: #293589;font-family: 'Open Sans Condensed', sans-serif;font-weight: 300;
+    font-size: 2.4rem;
+    padding-top: 7px;}
+.PromoMiddle  {color:#fff;background-color: #293589;padding-left: 50px;}
+.PromoRight  {color:#fff;background-color: #293589;}
+
+.cdNumber {font-size:3em;font-family: 'Open Sans', sans-serif;font-weight: 400;}
+.cdDetails {    font-weight: 700;
+    color: #fff!important;
+    background-color: #293589;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 21px;
+    padding-top: 13px;
+    padding-left: 17px;}
+
+
+/*--------------------------*
+ |     Homepage Slogan	|
+ *--------------------------*/
+ 
+.homeSlogan {padding:40px 0;letter-spacing:0.5px;color: #fff;font-family: 'Open Sans Condensed', sans-serif;font-weight: 400!important;font-size: 2.75em!important;text-align:center;}
+.homeSlogan p{color: #fff;font-family: 'Open Sans Condensed', sans-serif;font-weight: 400!important;font-size: font-size: 2.75em!important;text-align:center;}
+ 
+ /*--------------------------*
+ |     Homepage Call To Action Section 1	|
+ *--------------------------*/
+
+#dnn_homeCTAOneLeft {background-color:#27316f;padding: 60px;}
+#dnn_homeCTAOneRight p{padding:0!important;margin-bottom: 0.7rem!important;}
+#dnn_homeCTAOneRight {} 
+ 
+#dnn_homeCTAOneLeft h3{color: #fff!important;font-family: 'Barlow Condensed', sans-serif!important;font-weight: 600!important;font-size:2.5em!important;text-transform:uppercase;line-height: 48px;}
+#dnn_homeCTAOneLeft h5{color: #91edff!important;font-family: 'Open Sans', sans-serif!important;font-weight: 700!important;font-size: 1.05em!important;text-transform:uppercase;}
+#dnn_homeCTAOneLeft p{color: #fff!important;font-family: 'Open Sans', sans-serif!important;font-weight:400!important;font-size: 1em!important;margin-bottom: 0.7rem!important;}
+
+
+#dnn_homeCTATwoLeft{}
+#dnn_homeCTATwoRight {background-color:#ffffff;padding: 60px;text-align:right;}
+#dnn_homeCTATwoRight h3{letter-spacing: -0.5px;color: #7e7f7f!important;font-family: 'Barlow Condensed', sans-serif!important;font-weight: 600!important;font-size:2.5em!important;text-transform:uppercase;text-align:right;line-height: 48px;}
+#dnn_homeCTATwoRight h5{color: #000!important;font-family: 'Open Sans', sans-serif!important;font-weight: 700!important;font-size: 1.05em!important;text-transform:uppercase;}
+#dnn_homeCTATwoRight p{color: #343434!important;font-family: 'Open Sans', sans-serif!important;font-weight:400!important;font-size: 1em!important;margin-bottom: 0.7rem;}
+
+
+#dnn_homeCTAThreeRight {}
+#dnn_homeCTAThreeLeft {background-color:#ffffff;padding: 60px;}
+#dnn_homeCTAThreeLeft h3{letter-spacing: -0.5px;color: #7e7f7f!important;font-family: 'Barlow Condensed', sans-serif!important;font-weight: 600!important;font-size:2.5em!important;text-transform:uppercase;line-height: 48px;}
+#dnn_homeCTAThreeLeft h5{color: #000!important;font-family: 'Open Sans', sans-serif!important;font-weight: 700!important;font-size: 1.05em!important;text-transform:uppercase;}
+#dnn_homeCTAThreeLeft p{color: #343434!important;font-family: 'Open Sans', sans-serif!important;font-weight:400!important;font-size: 1em!important;margin-bottom: 0.7rem;}
+
+
+#hpcontent1 {background-color: #f5f5f5;}
+
+
+.row2DropShadow {box-shadow: 3px 2px 8px 1px rgba(150, 147, 147, 0.39);}
+.row2DropImageShadow {box-shadow: -6px 2px 8px 1px rgba(150, 147, 147, 0.39);}
+.row3DropShadow {box-shadow: -7px -5px 8px 1px rgba(150, 147, 147, 0.25);}
+.row3DropImageShadow {box-shadow: 0px -5px 8px 1px rgba(150, 147, 147, 0.25);}
+
+
+
+
+
+#hpcontent {background-color: #01a1c1;}
+
+#hpcontent p {}
+
+#hpcontent #dnn_WidePane {
+    color: #000;
+    font-family: 'Raleway', sans-serif;font-weight:700;
+    font-size: 2.5em;text-align:center;
+}
+
+
+.miniMessageHome {font-size: 1.2em;text-align:center;padding:65px 0 10px 0;color:#3c3c3c;font-family: 'Lato', sans-serif;letter-spacing:1px;}
+.miniMessageHome a {color: #0060a9!important;}
+.miniMessageHome a:hover {color: #2084e8!important;}
+
+/*-----------------[ OLB Dropdown Code Use to be Here]-----------------*/
+
+/*-------------------------*
+ |      Buttons     	|
+ *-------------------------*/
+
+.solidButton a{color: #fff!important;text-decoration: none!important;}
+a.solidButton{
+	color: #fff!important;
+	padding: 7px 25px;
+	text-decoration: none!important;
+	font-family: 'Asap Condensed', sans-serif!important;
+	font-size:0.95em!important;
+	font-weight: 400!important;	
+	background-color: #26328c;
+	margin:10px 15px 20px 0;
+	float: left;
+	text-shadow: none!important;
+	text-decoration: none!important;
+	display: inline;
+}
+a.solidButton:hover{
+	color: #fff!important;
+	background-color:#017B93;
+	text-decoration:underline!important;
+}
+
+
+
+a.homeButton{
+	color: #fff!important;
+    padding: 11px 25px;
+    text-decoration: none!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 0.9em!important;
+    font-weight: 400!important;
+    background-color: #123456;
+    margin-top: 7px;
+    text-shadow: none!important;
+    text-decoration: none!important;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+a.homeButton:hover{
+	color: #fff!important;
+	background-color:#085eb4;
+	text-decoration:underline!important;
+}
+
+
+
+
+a.squareCubeButton{
+	color: #fff!important;
+    padding: 2px 14px 3px 19px;
+    text-decoration: none!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 0.9em!important;
+    font-weight: 400!important;
+    background-color: #2cc2df;
+    margin-top: 1px;
+    text-shadow: none!important;
+    text-decoration: none!important;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+a.squareCubeButton:hover{
+	color: #fff!important;
+	background-color:#979797;
+	text-decoration:underline!important;
+}
+
+
+
+
+a.outlineButton{
+	color: #293589!important;
+	 padding: 7px 21px;
+    background-color: #fff!important;
+    border: 4px solid #2cc2df!important;
+	 font-family: 'Asap Condensed', sans-serif!important;
+	text-transform:uppercase;
+	margin-right: 15px;
+}
+a.outlineButton:hover{
+	 color: #fff!important;
+    background-color: #017B93!important;
+    border: 4px solid #017B93!important;
+	 text-decoration: none!important;
+}
+
+
+
+.turqButton a{color: #fff!important;text-decoration: none!important;}
+a.turqButton{
+	color: #fff!important;
+	padding: 12px 25px;
+	text-decoration: none!important;
+	font-family: 'Asap Condensed', sans-serif!important;
+	font-size:1em;
+	font-weight: 400!important;	
+	background-color: #017B93;
+	margin:13px 15px 20px 0;
+	width: 140px;
+	text-shadow: none!important;
+	display: block;
+	white-space: nowrap;
+}
+a.turqButton:hover{
+	color: #fff!important;
+	background-color:#01a1c1;
+	text-decoration:underline!important;
+}
+
+#dnn_TopRight .PromoRight {
+    
+    background-color: #fff;
+    
+}
+
+@media only screen and (max-width: 991px) {
+  .turqButton {
+   margin: 20px auto !important;
+      
+  }
+}
+
+
+
+
+.btn-primary {
+    color: #fff!important;
+    background-color: #017B93;
+    border: none!important;
+	font-family: 'Asap Condensed', sans-serif!important;
+}
+
+.btn-primary:hover {
+    color: #fff!important;
+    background-color: #232f79;
+    border-color: #232f79;
+}
+
+.btn .btn-primary a{color: #fff!important;background-color: #0199b7;}
+.btn-primary a:hover{color: #fff!important;border: none!important;background-color: #242f7a!important;}
+
+
+
+.fiservButton a{color: #fff!important;text-decoration: none!important;}
+a.fiservButton{
+	color: #fff!important;
+	padding: 7px 25px;
+	text-decoration: none!important;
+	font-family: 'Asap Condensed', sans-serif!important;
+	font-size:0.95em!important;
+	font-weight: 400!important;	
+	background-color: #26328c;
+	margin:10px 15px 20px 0;
+	float: right;
+	text-shadow: none!important;
+	text-decoration: none!important;
+	display: inline;
+}
+a.fiservButton:hover{
+	color: #fff!important;
+	background-color:#017B93;
+	text-decoration:underline!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------*
+ |      Back To Top     	|
+ *-------------------------*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+	z-index: 999;
+    display:none;color:#fff!important;background-color: #01a1c1;
+}
+
+.back-to-top a{color:#fff!important;background-color: #01a1c1;}
+.back-to-top a:hover{color:#fff!important;background-color: #293589!important;border: none!important;}
+#dnn_TopRight {padding-top: 5px;}
+
+
+
+
+/*---------------------------------*
+ |      Subpage Table Styling     	|
+ *---------------------------------*/
+
+.light-blue-bkg {
+    background-color:#007ead!important;color: #FFF;font-size: 1.2em;padding-top:1.2rem!important;padding-bottom:1.2rem!important;
+}
+.medium-blue-bkg {
+    background-color: #0a70bb!important;color: #FFF;font-size: 1.2em;padding-top:1.2rem!important;padding-bottom:1.2rem!important;
+}
+.dark-blue-bkg {
+    background-color: #2b529c!important;color: #FFF;font-size: 1.2em;padding-top:1.2rem!important;padding-bottom:1.2rem!important;
+}
+
+.darkest-blue-bkg {
+    background-color: #242f7a!important;color: #FFF;font-size: 1.2em;padding-top:1.2rem!important;padding-bottom:1.2rem!important;
+}
+
+.uniqueHeader{
+    color: #737373;background-color: #fff;font-size: 1.2em;
+}
+
+.halfTone {color:inherit;background-color:f9f9f9!important;}
+
+
+/************************************************************************************/
+
+
+/*---------------------------------*
+ |      Various     	|
+ *---------------------------------*/
+
+
+.buttonRatesPage {width:185px;text-align: right;} /* Aligns a button to the right of the page */
+
+
+.circleImages img {
+    clip-path: circle(45%);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*---------------------------------*
+ |       Map on Hours Locations     	|
+ *---------------------------------*/
+
+.mapContainer {}
+
+
+/*---------------------------------*
+ |       Map on Hours Locations on less than 1023px    	|
+ *---------------------------------*/
+@media only screen and (max-width: 1023px) { 
+.mapContainer img{clip-path: circle(45%);border-radius: 50%;max-width: 100%;height: auto;}
+.mapContainer .fa{display:none;}
+}
+
+
+
+
+
+
+
+
+
+/************************************************************************************/
+
+@media only screen and (max-width: 992px) { 
+.p-4 {
+
+    padding: 5px 10px;
+  
+ 
+}
+}
+
+
+
+
+.p-4 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #293589; /* Main Menu Nav items color !!!! */
+  font-weight:400;
+  font-family: 'Asap Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+.p-4 a:hover {
+  text-decoration: none;
+  color: #7f7f7f;  /* Main Menu Nav items hover color !!!! */
+}
+
+
+.p-4 ul {
+  margin-left: 0px;
+}
+
+
+#dnn_dnnLOGO_hypLogo img {
+  margin-top: 20px;margin-bottom: 25px;
+}
+#dnn_TopMiddle {
+  margin-top: 60px;
+  padding-left: 100px;
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  #dnn_TopMiddle {
+    margin-top: 10px;
+  }
+}
+#TopRight {
+  margin-top: -3px;
+}
+@media only screen and (max-width: 992px) {
+  #TopRight {
+    display: none;
+  }
+}
+.searchSkinObjectPreview {
+  display: none;
+}
+.rotatorSmBlack {
+  color: #000;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  font-weight: 400 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 1.25em !important;
+  line-height: 24px !important;
+}
+.rotatorMedBlack {
+  color: #666;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+.rotatorLgBlack {
+  color: #333 !important;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  font-weight: 700 !important;
+  font-size: 2.35em !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  line-height: 1.1em !important;
+}
+.rotatorSmWhite {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+.rotatorMedWhite {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+.rotatorLgWhite {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+.rotatorSmRed {
+  color: #e20001;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+.rotatorMedRed {
+  color: #e20001;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+.rotatorLgRed {
+  color: #e20001;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+/*DNN9 tweaks*/
+.dnnModuleManager.dnnSortable {
+  z-index: 999;
+}
+/* utilities */
+.parallax {
+  /* background-image: url("/Portals/BANKNAME/Images/header_default.jpg");*/
+  /* Set a specific height */
+  height: 320px;
+  /*height: 500px;*/ /* Template original */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxInner {
+  /* background-image: url("/Portals/BANKNAME/Images/header_default.jpg");*/
+  /* Set a specific height */
+  height: 250px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* container */
+.box_white_cta {
+  background: #fff;
+  padding: 10px 0 0 0;
+  box-shadow: -1px 0px 14px #333;
+}
+.box_white_cta h3 {
+  color: #007b57 !important;
+  padding: 0 10px;
+}
+.box_white_cta p {
+  color: #333;
+  padding: 0 10px;
+}
+
+
+/*RTE Background Fix*/
+.redactor-box textarea {
+  background: #fff !important;
+  color: #333 !important;
+}
+/*bootstrap 4 fix*/
+/*login drawer*/
+
+/*
+#login {
+  float: right;
+  margin-top: -46px;
+}
+#login p {
+  padding: 0;
+  margin: 0;
+}
+#login p.close {
+  margin: 0;
+  padding: 0;
+  font-size: 1em !important;
+}
+.close {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  filter: alpha(opacity=20);
+  font-size: 1.5em !important;
+}
+#login-form {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  background: #007b57;
+  margin-left: -10px;
+  width: 240px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 6px;
+}
+*/
+.inner_olb {
+  background: #007b57; /*margin-left: -10px;*/ width: 100%;
+  border-radius: 10px;
+}
+.online {
+  background: #007b57;
+  width: 130px;
+  float: right;
+  clear: both;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.online a, .online a:hover {
+  color: #fff !important;
+}
+.online {
+  float: right;
+}
+.top_right p {
+  text-align: right;
+  float: left;
+  margin-left: 34%;
+  margin-top: 10px;
+}
+.online a {
+  color: #fff !important;
+  text-align: center;
+  font-weight: 900;
+  padding: 18px 30px;
+}
+.online p {
+  height: auto !important;
+  float: none !important;
+}
+/*header 4 login fix*/
+#dnn_header_right_login #login {
+  margin-top: 10px;
+}
+/*nav*/
+
+/*nav*/
+/*.navbar-nav li:hover .dropdown-menu {
+  display: block;
+}
+.navbar .float-left {
+  list-style: none;
+  color: #fff !important;
+}
+.navbar .float-left a, .navbar .float-left a:hover, .navbar .float-left a:focus, .navbar .float-left a:visited {
+  color: #000;
+}
+.navbar .float-left li li a {
+  color: #333;
+}
+.navbar {
+  padding-top: 10px;
+}
+.navbar .mx-auto {
+  list-style: none;
+  color: #fff !important;
+}
+.navbar .mx-auto a, .navbar .mx-auto a:hover, .navbar .mx-auto a:focus, .navbar .mx-auto a:visited {
+  color: #fff;
+}
+.navbar .mx-auto li li a {
+  color: #333;
+}*/
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+}
+
+
+
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+}
+
+
+
+/*------------------------------------------------*/
+/*-----------------[ ADA STUFF ]-----------------*/
+/*------------------------------------------------*/
+
+/* ------- for A11y -------  */
+
+a#skip {
+            position: absolute !important;
+            clip: rect(1px 1px 1px 1px);
+           clip: rect(1px, 1px, 1px, 1px);
+           overflow: hidden;
+            height: 1px;
+			color: #000 !important;
+}
+
+a#skip:focus, a#skip:active {
+            position: static !important;
+            clip: auto;
+            overflow: visible;
+           height: auto;
+}
+
+.visually-hidden {
+            position: absolute !important;
+            clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+            clip: rect(1px, 1px, 1px, 1px);
+            padding: 0 !important;
+            border: 0 !important;
+            height: 1px !important;
+            width: 1px !important;
+            overflow: hidden;
+}
+
+
+
+/*ADA Code*/
+.skip {
+  height: 1px;
+  margin-top: -19px;
+  text-indent: -3000px;
+}
+.skip_text {
+  height: 1px;
+  position: absolute;
+  text-indent: -300000px !important;
+  z-index: -9;
+}
+/*Alert*/
+.AlertFull {
+  background: #01A1C1;
+}
+.AlertFull p{
+  color: #000;
+}
+/*top bar*/
+.topBarFull {
+  background: #fff;
+}
+/*Top Right Contact*/
+.top_right_contact {
+  width: 60%;
+  float: right;
+  margin-top: -50px
+}
+@media only screen and (max-width: 992px) {
+  .top_right_contact {
+    width: 100%;
+    float: unset;
+    margin-top: 0px
+  }
+}
+#dnn_top_right p {
+  padding-top: 44px;
+  text-align: right;
+}
+.top_links {
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/*mid right header login*/
+.mid_right_login {
+  float: right;
+  clear: both;
+  margin: 18px 0 auto 0;
+  height: 46px;
+}
+.mid_right_login p {
+  float: left;
+  clear: both;
+  margin: 18px 0 auto 0;
+  height: 46px;
+}
+.mid_right_login a {
+  color: #333;
+  padding: 0 5px;
+  font-weight: bold;
+}
+/*search*/
+.search_main {
+  display: none;
+  visibility: hidden;
+  background: #e5e5e5;
+  height: 150px;
+}
+.SearchContainer {
+  margin: 0 auto;
+  max-width: 700px;
+  padding-top: 55px;
+}
+.searchInputContainer {
+  float: left;
+  width: 90%;
+}
+input.SearchTextBox {
+  max-width: 100%;
+  padding: 10px;
+  width: 100%;
+  line-height: 16px;
+  font-size: 12px;
+  border: 1px solid #999;
+}
+.dnnSearchBoxPanel {
+  max-width: 100%;
+}
+.search_link {
+  margin-top: 6px;
+  position: absolute;
+  cursor: pointer;
+}
+.search_link.close {
+  margin-top: 11px;
+}
+.SearchIcon, .dnnSearchResultItem-Others {
+  display: none;
+}
+.dnnSearchBoxPanel .dnnSearchBox {
+  margin-left: 10px;
+  margin-right: 125px;
+  display: block;
+}
+.dnnSearchResultPanel {
+  width: 100%;
+  max-width: 100%;
+  margin: 30px 0 0 0;
+  padding: 10px 0 7px 0;
+  background-color: #ddd;
+}
+.search, a.search:link, a.search:active, a.search:visited {
+  /*background: rgba(0, 0, 0, 0) url("/portals/BANKNAME/Images/search.png") no-repeat scroll center center;*/
+  display: block;
+  float: left;
+  height: 22px;
+  margin-left: -40px;
+  margin-top: 11px;
+  position: relative;
+  text-indent: -3000px;
+  width: 33px;
+}
+.close {
+  /*float: none !important;*/   /*---- this makes the x float the left in the Alert Message -----*/
+}
+#header {
+  background-color: #fff !important;
+}
+/************banner************/
+.BannerPane, .BannerPane p {
+  margin: 0;
+}
+.BannerPane {
+  margin: 0px !important; /*height: 456px;*/ max-width: 100%;
+  overflow: hidden;
+}
+.inner_banner {
+  margin: 0px !important;
+  max-height: 300px;
+  max-width: 100%;
+}
+/*******banner bottom gradient*************/
+.gradient_block {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 1));
+  z-index: 9;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  bottom: 0;
+}
+/**** ^ if wanted/needed**/
+/*left banner */
+.BannerPaneLeft p {
+  font-size: 1em;
+  line-height: 100%;
+}
+.BannerPaneLeft h1 {
+  text-align: left;
+  color: #24445f;
+  text-shadow: 1px 0px 1px #fff;
+}
+.BannerPaneLeft h2, .BannerPaneLeft h3, .BannerPaneLeft h4, .BannerPaneLeft h5, .BannerPaneLeft h6, .BannerPaneLeft p, .BannerPaneLeft {
+  color: #fff;
+  padding-left: 25px;
+  text-shadow: 1px 3px 1px #000;
+}
+/*Banner Center*/
+.BannerPaneCenter {
+  font-size: 1.3em;
+  height: 196px;
+  margin: -16% auto 71px auto;
+}
+.BannerPaneCenter h1 {
+  text-align: center;
+}
+.BannerPaneCenter h1, .BannerPaneCenter h2, .BannerPaneCenter h3, .BannerPaneCenter h4, .BannerPaneCenter h5, .BannerPaneCenter h6, .BannerPaneCenter p, .BannerPaneCenter {
+  color: #fff !important;
+  padding-left: 25px;
+  text-shadow: 1px 3px 1px #000;
+}
+/*right banner*/
+.BannerPaneRight {
+  float: right !important;
+  margin-top: -20%;
+  font-size: 1.3em;
+  background-color: rgba(39, 128, 227, 0.6);
+  margin-right: 90px;
+  height: 196px;
+  border: 2px solid #333;
+}
+.BannerPaneRight h1 {
+  text-align: center;
+}
+.BannerPaneRight h1, .BannerPaneRight h2, .BannerPaneRight h3, .BannerPaneRight h4, .BannerPaneRight h5, .BannerPaneRight h6, .BannerPaneRight p, .BannerPaneRight {
+  color: #fff !important;
+  text-shadow: 1px 3px 1px #000;
+}
+/*@media(min-width:800px){.BannerRightPane {width: 30%;}}
+@media(max-width:767px){.BannerLeftPane{margin-top: -33%;font-size:2em;max-width: 100%!important;}.BannerRightPane{width:100%!important;float:none!important;margin:0!important;}}*/
+/*banner inner*/
+#bannerInner {
+
+  overflow: hidden;
+  clear: both;
+}
+/*banner Page title center*/
+.BannerPageTitleCenter {
+  color: #fff;
+  position: absolute;
+  z-index: 9;
+  color: #fff;
+  text-align: center;
+  padding: 58px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+#FooterContainer1 {
+  
+  /*! padding: 175px */
+  
+}
+
+
+ /* Dropdown Menu Color */
+.dropdown-menu {
+	/*background-color: #153d65!important;*/
+	background-color: #222d7d!important;color: fff;
+	min-width:15rem;border-radius:0!important;
+
+}
+
+
+.dropdown-menu .p-4 a{
+color: #fff;   /* dropdown items color !!!! */
+background-color: #222d7d;
+}
+
+.dropdown-menu .p-4 a:hover{
+color: #dbdef4;   /* dropdown items color !!!! */
+background-color: #222d7d;
+}
+
+
+@media only screen and (max-width: 992px) { 
+.navbar-nav {
+    margin-left: 0px;
+  
+}
+
+}
+
+
+@media only screen and (max-width: 992px) { 
+.navbar-nav li li {
+   padding-left: 15px !important;
+  
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+.navbar-nav li  {
+   padding-left: 10px !important;
+  
+}
+}
+
+
+.BannerPageTitleCenter h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+/*Carousel Pane*/
+#dnn_CarouselPane p {
+  margin: 0;
+}
+/*Sections*/
+
+#dnn_WidePane {
+  color: #092c99;
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+
+
+
+
+
+#hpcontent2 {
+  background-image: url(../../Images/stripe.gif);background-position:top center;
+}
+
+
+
+#hpcontent3 {
+  display:none;
+}
+
+
+
+
+
+#FooterContainer {
+  background-color: #242c65!important;
+  padding-top: 60px;
+}
+
+#FooterContainer2 {
+  background-color: #443f39;
+  color: #fff !important;
+  padding-top: 10px;text-align: right;/*border-top: 1px solid #c97a7a;*/
+}
+
+#FooterContainer2 div {
+  
+  color: #fff !important;background-color: #443f39;
+ 
+}
+
+
+#dnn_FooterLogos{text-align: right;}
+
+
+#dnn_FooterLeft, #dnn_FooterLeftMiddle, #dnn_FooterLeftRight, #dnn_FooterRight {
+ 
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  #FooterContainer { /*margin-top: -230px;*/}
+ 
+ 
+  
+}
+
+  
+  
+  
+
+@media only screen and (max-width: 768px) { 
+
+#dnn_FooterLeft, #dnn_FooterMiddle, #dnn_FooterRight, #dnn_FooterLeftMiddle, #dnn_FooterRightMiddle {
+  margin-top: 20px;
+  text-align: center !important; 
+}
+
+
+.appButtonFooter {
+    width: 89px;
+    margin-left: auto;
+    margin-right: 9px;
+    display: inline;
+}
+
+
+
+}
+
+
+
+#dnn_FooterLeft li, #dnn_FooterMiddle li, #dnn_FooterRight li {
+  
+ list-style: none;
+  color: #fff;
+  
+  
+}
+
+
+
+
+
+#dnn_FooterMiddle {
+  
+  text-align: center;
+  
+}
+
+#dnn_FooterRight {
+  text-align: right;
+  
+}
+
+
+
+/*section 1*/
+#contentOne {
+  padding: 70px 0 70px 0;
+  background: /*#2780E3 template**/ #fff;
+}
+#contentOne h1, #contentOne h2, #contentOne h3, #contentOne p, #contentOne td, #contentOne tr, #contentOne table, #contentOne a, #contentOne ul, #contentOne li {
+  
+}
+#contentTwo {
+  padding: 25px 0;
+  background: #666666;
+}
+#contentThree {
+  padding: 25px 0;
+  background: #333333;
+}
+#contentFour {
+  padding: 25px 0;
+  background: #2780E3;
+}
+#contentFive {
+  padding: 25px 0;
+  background: #1A5BA4;
+}
+#contentSix {
+  padding: 25px 0;
+  background: #064C9B;
+}
+#contentSeven {
+  padding: 25px 0;
+  background: #fff;
+}
+#contentEight {
+  padding: 25px 0;
+  background: #f2f2f2;
+}
+#contentNine {
+  padding: 25px 0;
+  background: #76A0D0;
+}
+#contentTen {
+  padding: 25px 0;
+  background: #ccc;
+}
+#contentEleven {
+  padding: 25px 0;
+  background: #333333;
+}
+#contentTwelve {
+  padding: 25px 0;
+  background: #fff;
+}
+
+.homepage_third {
+  color: #333;
+  padding: 10px;
+  min-height: 160px;
+}
+/*footer Container*/
+#FooterContainer ul {
+  margin: 0;
+}
+#FooterContainer p, #FooterContainer a {
+  color: #dbdef4;background-color:transparent;
+}
+#FooterContainer p{
+font-size: 0.9em;
+}
+#dnn_FooterLeft a {font-size: 0.9em;}
+#dnn_FooterLeft  {line-height:1.25;}
+#FooterContainer a:hover {color:#fff;background-color:transparent;}
+
+
+
+/******************************************speeeeeed**************************/
+.SpdbmpMdl h1, .UnscrEmlMdl h1, .SpdbmpMdl2 h1 {
+  color: #ffffff !important;font-size: 2rem;
+}
+.SpdbmpMdl p, .UnscrEmlMdl p, .SpdbmpMdl2 p {
+  color: #ffffff !important;
+}
+.SpdbmpMdl a, .UnscrEmlMdl a, .SpdbmpMdl2 a {
+  color: #085eb4!important;
+}
+.SpdbmpMdl strong, .UnscrEmlMdl strong, .SpdbmpMdl2 strong {
+  color: #8dc63f !important;
+  font-weight: 900 !important;
+}
+.SpdbmpMdl a:hover, .UnscrEmlMdl a:hover, .SpdbmpMdl2 a:hover {
+  color: #ffffff !important;
+}
+.SpdbmpMdlFd, .UnscrEmlMdlFd, .SpdbmpMdlFd2 {
+  /*background: url("/Portals/RichardDev/skins/FIS2020/modal/Black80.png?ver=2020-02-04-152755-200") repeat scroll left top rgba(0, 0, 0, 0);*/
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.SpdbmpMdl, .UnscrEmlMdl, .SpdbmpMdl2 {
+  background: #085eb4; /*modal background color */
+  border-radius: 5px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: block;
+  left: 50%;
+  margin: -220px 0 0 -300px;
+  padding: 30px 40px 34px;
+  position: fixed;
+  text-align: left;
+  top: -50%;
+  width: 520px;
+  z-index: 99999;
+}
+@media (max-width:480px) {
+  .SpdbmpMdl, .UnscrEmlMdl, .SpdbmpMdl2 {
+    width: 238px;
+    margin-left: -255px;
+    padding: 30px 34px 34px;
+    left: 80%;
+    text-align: center;
+    top: 23%;
+    /*margin-top:-221px;*/
+  }
+  .SpdbmpMdl p, .UnscrEmlMdl p, .SpdbmpMdl2 p {
+    line-height: 19px;
+  }
+  .SpdbmpMdl h1, .UnscrEmlMdl h1, .SpdbmpMdl2 h1 {
+    font-size: 2em;
+  }
+}
+.SpdbmpMdl .SpdbmpMdlCls, .UnscrEmlMdl .UnscrEmlMdlCls, .SpdbmpMdl2 .SpdbmpMdlCls {
+  color: #aaaaaa;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 30px;
+}
+@media (max-width: 768px) {
+  .SpdbmpMdl, .UnscrEmlMdl, .SpdbmpMdl2 {
+    top: -100%;
+  }
+}
+
+
+
+
+
+
+/* --###############################--- RESPONSIVE ##############################-----  */
+/* --###############################--- RESPONSIVE ##############################-----  */
+/* --###############################--- RESPONSIVE ##############################-----  */
+/************************************************************************************/
+
+
+
+@media (max-width:991px) {
+
+#dnn_homeCTATwoRight h3, #dnn_homeCTAOneLeft h3, #dnn_homeCTAThreeLeft h3 {font-size: 2em!important;line-height: 35px;}  /* Homepage Call to Action Font */
+
+#dnn_homeCTATwoRight h5, #dnn_homeCTAOneLeft h5, #dnn_homeCTAThreeLeft h5 {font-size: 1em!important;}  /* Homepage Call to Action Font */
+
+#dnn_homeCTAOneLeft, #dnn_homeCTATwoRight, #dnn_homeCTAThreeLeft {padding: 30px 30px 90px 30px;}
+
+#FooterContainer {background-color: #242c65!important;}
+
+}
+
+
+
+/* Desktops and laptops ----------- */
+/* Desktops and laptops ----------- */
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) {
+
+.p-4 {padding: 14px 37px !important;font-size: 1.25em;letter-spacing: 0.8px;} /* Main Menu only for desktop !!!! */
+.SubpagePadding {padding-left:65px;}
+.dropdown-menu .p-4 {
+    padding: 2px 10px 2px 20px!important;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+}
+
+.dropdown-menu .p-4 a{text-transform:none!important;font-weight:300!important;font-size: 1.285em;letter-spacing:1px;font-family: 'Open Sans Condensed', sans-serif;}
+
+.appButtonFooter {}
+
+#FooterRow {padding-top: 50px;}
+.homeBlank {height:80px;background-color: #f5f5f5;}
+
+
+#login {float: right;} /* moves the login button to right on desktops */
+
+#dnn_homeCTATwoRight h3 {font-size: 3em!important;}
+#dnn_homeCTAOneLeft h3 {font-size: 3em!important;}
+#dnn_homeCTAThreeLeft h3 {font-size: 3em!important;}
+
+
+
+
+
+/*---------------------------------------------*
+ |       Overlay Hover Effects for Maps     	|
+ *---------------------------------------------*/
+
+.containerOverlay {
+  position: relative;
+  width: 100%;
+  max-width: 337px;
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageOverlay {
+  display: block;
+  width: 100%;
+  height: auto;
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.overlayOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #2ec8e7;
+}
+
+.containerOverlay:hover .overlayOverlay {
+  opacity: 1;opacity: 0.8;cursor:pointer;
+}
+
+.iconOverlay {
+  color: #fff!important;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: 337px;
+    width: 337px;
+    clip-path: circle(45%);
+    border-radius: 50%;
+	margin-top: 40%;
+}
+.iconOverlay a{color: #fff!important;}
+.iconOverlay:hover {color: #fff!important;}
+
+.fa-map-marker:hover {color: #fff!important;}
+.positionIcon {padding-top:105px;}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/************************************************************************************/
+/* Samsung Galaxy Tab A */
+@media screen and (min-width: 800px) and (max-width:1280px) and (orientation: portrait) {
+
+#dnn_TopRight {margin-top: -20px;}
+.back-to-top {display:none!important;}
+
+/*#RightPaneInner {display:none;} */
+
+
+
+}
+/* End */
+/************************************************************************************/
+
+
+/* Samsung Galaxy Tab S6 Landscape */
+/* Samsung Galaxy Tab S6 Landscape */
+@media screen and (min-width:1025px) and (max-width:1199px) and (orientation: landscape) {
+	
+.PromoLeft {white-space: nowrap;}	
+
+
+}
+/* End */
+/************************************************************************************/
+
+
+
+/* Samsung Galaxy Tab S6 */
+@media screen and (min-width: 668px) and (max-width:767px)  {
+
+h1 {font-size: 2.5rem;line-height: 43px;}
+
+#RightPaneInner {display:none;}
+
+#topPane {
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	float: none;
+} /* Centers OLB button */
+
+.bg-dark {box-shadow: 1px -9px 8px -5px rgba(186, 177, 177, 0.0);} /* Removes drop shadow in menu */
+
+#dnn_dnnLOGO_hypLogo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} /* Centers Logo */
+
+.topBar {text-align: center;} /* Centers text in topPane */
+#bannerInner {margin-top: 15px;}
+.loginButton {
+	margin-top: 2%!important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} /* centers the login dropdown tabbed drawer on smartphones */
+
+
+/* This container centers the login dropdown tabbed drawer on smartphones*/
+.outerOLBContainerCenter  {
+	width: 270px;
+    background-color: #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dnn_TopRight {padding-top:0;} /* removes space above login button */
+
+
+	
+	
+	
+	
+}
+/* End */
+/************************************************************************************/
+
+/************************************************************************************/
+/* ******* Misc ******* */
+@media screen and (max-width: 1199px) and (min-width: 1025px)  {
+/*.p-4 {padding: 10px 25px !important;} /* menu spacing */
+
+}
+
+/************************************************************************************/
+/* ******* Misc ******* */
+@media screen and (max-width: 1199px) and (min-width: 993px)  {
+/*.p-4 {padding: 10px 25px !important;} /* menu spacing */
+
+}
+
+
+
+
+/* Samsung Galaxy Tab A */
+/* ******* Misc ******* */
+@media screen and (max-width: 767px) and (min-width:576px)  {
+
+
+.homeSlogan {font-size: 2.15em!important;}
+
+#dnn_homeCTAOneLeft, #dnn_homeCTATwoRight, #dnn_homeCTAThreeLeft {padding: 30px 30px 20px 30px;}
+
+#dnn_homeCTAOneLeft p, #dnn_homeCTATwoRight p, #dnn_homeCTAThreeLeft p {font-size: 0.75em!important;}
+
+#dnn_homeCTAOneLeft h3, #dnn_homeCTATwoRight h3, #dnn_homeCTAThreeLeft h3{font-size: 1.4em!important;line-height: 25px;}
+
+#dnn_homeCTAOneLeft h5, #dnn_homeCTATwoRight h5, #dnn_homeCTAThreeLeft h5 {font-size: 0.85em!important;margin-bottom: .1rem;}
+
+
+}
+
+
+
+
+/************************************************************************************/
+/* iPad Pro 12.9 */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.p-4 {padding: 10px 20px !important;} /* menu spacing */
+
+}
+/*  ------end iPad Pro */
+
+
+
+/************************************************************************************/
+/* Laptop Width */
+@media screen and (max-width: 1399px) and (min-width:1324px) and (orientation: landscape) {
+
+
+}
+
+/************************************************************************************/
+
+
+/* Very Large screens ----------- */
+/* Very Large screens ----------- */
+/* Very Large screens ----------- */
+@media only screen  and (min-width : 1324px) {
+
+
+
+
+
+}
+
+
+
+
+
+
+/************************************************************************************/
+/********* IPAD PORTRAIT ******** IPAD PORTRAIT ******* IPAD PORTRAIT ***************/
+/********* IPAD PORTRAIT ******** IPAD PORTRAIT ******* IPAD PORTRAIT ***************/
+/********* IPAD PORTRAIT ******** IPAD PORTRAIT ******* IPAD PORTRAIT ***************/
+/********* IPAD PORTRAIT ******** IPAD PORTRAIT ******* IPAD PORTRAIT ***************/
+/********* IPAD PORTRAIT ******** IPAD PORTRAIT ******* IPAD PORTRAIT ***************/
+
+/* =================== iPad portrait ============================ */
+/*  iPad Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait)  {
+
+h1 {font-size: 2.5rem;line-height: 43px;}
+#dnn_homeCTAOneLeft h3, #dnn_homeCTATwoRight h3, #dnn_homeCTAThreeLeft h3{font-size: 1.6em!important;margin-bottom: .15rem;}
+#dnn_homeCTATwoRight h5, #dnn_homeCTAOneLeft h5, #dnn_homeCTAThreeLeft h5 {font-size: 0.95em!important;}
+#dnn_homeCTAOneLeft p, #dnn_homeCTATwoRight p, #dnn_homeCTAThreeLeft p {font-size:0.9em!important;}
+
+
+#FooterContainer {background-color: #242c65!important;}
+
+.appButtonFooter {
+    width: 89px;
+    margin-left: auto;
+    margin-right: 9px;
+    display: inline;
+}
+
+#dnn_TopRight {
+    margin-right: 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+} /*  positions the tabbed button on an iPad */
+
+
+
+/*  holds the OLB button */
+#dnn_TopRight {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;padding-top:0!important;
+}
+
+
+
+/*  holds the Open an Acc button */
+#dnn_TopMiddleButton {margin-top:0!important;}
+
+	  
+.cdNumber {
+    font-size: 2em;
+}
+	  
+.PromoLeft {white-space: nowrap;}	  
+
+}
+/*  ------end iPad Portrait */
+
+
+/************************************************************************************/
+
+/********* IPAD LANDSCAPE ******** IPAD LANDSCAPE ******* IPAD LANDSCAPE ***************/
+/********* IPAD LANDSCAPE ******** IPAD LANDSCAPE ******* IPAD LANDSCAPE ***************/
+/********* IPAD LANDSCAPE ******** IPAD LANDSCAPE ******* IPAD LANDSCAPE ***************/
+/********* IPAD LANDSCAPE ******** IPAD LANDSCAPE ******* IPAD LANDSCAPE ***************/
+/********* IPAD LANDSCAPE ******** IPAD LANDSCAPE ******* IPAD LANDSCAPE ***************/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape)  {
+
+
+.p-4 {padding: 10px 20px !important;} /* menu spacing */
+
+.parallax {display:none;}
+
+
+
+.loginButton {font-size: 1em!important;width: 220px!important;}
+.loginForOpenAcc{margin-right:10px;}
+
+.PromoLeft {white-space: nowrap;}
+
+}
+/*  ------end iPad Landscape */
+
+/************************************************************************************/
+
+
+/********* SMARTPHONES ********** SMARTPHONES ************ SMARTPHONES *******************/
+/********* SMARTPHONES ********** SMARTPHONES ************ SMARTPHONES *******************/
+/********* SMARTPHONES ********** SMARTPHONES ************ SMARTPHONES *******************/
+/********* SMARTPHONES ********** SMARTPHONES ************ SMARTPHONES *******************/
+/********* SMARTPHONES ********** SMARTPHONES ************ SMARTPHONES *******************/
+
+
+/* Smartphone Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px)  { 
+
+.hideOnMobile {display:none;}
+
+h1 {font-size: 2.5rem;line-height: 43px;}
+
+#dnn_homeCTAOneRight {width: 100%;} /* homepage image row 1 */
+#dnn_homeCTATwoLeft {width: 100%;} /* homepage image row 2 */
+#dnn_homeCTAThreeRight {width: 100%;} /* homepage image row 3 */
+
+#contentOne {padding: 40px 0 70px 0;}
+
+#RightPaneInner {display:none;} /* hides sidebar on mobile */
+
+#topPane {
+    width: 240px;
+    margin-top: 54px;
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login {margin-top: -50px;}
+
+
+.miniAlert {text-align:center;}
+
+
+/* This container centers the login dropdown tabbed drawer on smartphones*/
+.outerOLBContainerCenter  {
+	width: 270px;
+    background-color: #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a.fiservButton{
+	float: none;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.loginButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} /* centers the login dropdown tabbed drawer on smartphones */
+
+
+.loginForOpenAcc{margin-bottom:15px;clear:both;}
+
+
+.navbar {margin-top: 25px;}
+
+#dnn_dnnLOGO_imgLogo {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dnn_FooterLogos {text-align: center;}
+.footerImages {float:none;margin-right:6px;margin-left:6px;display: block;margin-left: auto;margin-right: auto;}
+
+#dnn_TopRight {
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  holds the Open an Acc button */
+#dnn_TopMiddleButton {margin-top:0!important;}
+
+
+#topPane {float: none;}
+.topBar {text-align: center;}
+
+
+.appButtonFooter {display: inline;margin-left: auto;margin-right: auto;margin-top: 11px;float: none;padding-right:7px;}
+.back-to-top {display:none!important;}
+.copyRText {text-align: center;}
+
+
+
+
+.row2DropShadow {box-shadow: -6px 2px 8px 1px rgba(150, 147, 147, 0);}
+.row2DropImageShadow {box-shadow: -6px 2px 8px 1px rgba(150, 147, 147, 0);}
+.row3DropShadow {box-shadow: -6px 2px 8px 1px rgba(150, 147, 147, 0);}
+.row3DropImageShadow {box-shadow: -6px 2px 8px 1px rgba(150, 147, 147, 0);}
+
+
+	  
+	  
+	  
+}
+/*  ------end Smartphone Portrait and Landscape */
+
+
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) and (orientation: portrait) {
+.appButtonFooter {float: none;display: inline;}
+
+
+}
+/*  ------end  only */
+
+
+
+@media screen and (max-width: 812px) and (min-width: 375px) and (orientation: landscape) {
+
+.appButtonFooter {display: inline;margin-left: auto;margin-right: auto;margin-top: 11px;float: none;padding-right:5px;}
+
+}
+/*  ------end Smartphone Landscape only */
+
+
+
+/*  ------end  only */
+
+/************************************************************************************/
+
+
+/********* HOMESLIDER ********** HOMESLIDER ************ HOMESLIDER *******************/
+/********* HOMESLIDER ********** HOMESLIDER ************ HOMESLIDER *******************/
+/********* HOMESLIDER ********** HOMESLIDER ************ HOMESLIDER *******************/
+/********* HOMESLIDER ********** HOMESLIDER ************ HOMESLIDER *******************/
+/********* HOMESLIDER ********** HOMESLIDER ************ HOMESLIDER *******************/
+
+/*  making slider hover arrows dark */
+.slideshow .fa-angle-right:before  {color: #8e8b89!important;}
+.slideshow .fa-angle-left:before  {color: #8e8b89!important;}
+
+@media only screen and (min-width : 1670px) {
+
+    .slide-content {
+        padding: 10em 14em 3em 57em !important;
+    }
+
+    .slideshow h2 {
+        font-size: 4rem !important;line-height: 63px!important; text-align:right; /* align right for larger screens */
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        bottom: 14em;border: 5px solid #2cc2df!important;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1669px) and (min-width: 1501px) {
+
+    .slide-content {
+        padding: 10em 25em 3em 50em !important;
+    }
+
+    .slideshow h2 {
+        font-size: 4rem !important;line-height: 63px; text-align:right; /* align right for larger screens */
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        bottom: 14em;border: 5px solid #2cc2df!important;
+    }
+}
+
+
+/************************************************************************************/
+/* ******* Slider ******* */
+@media screen and (max-width: 1500px) and (min-width: 1201px) {
+
+    .slide-content {
+       padding: 4em 8em 7em 43em !important;
+    }
+
+    .slideshow h2 {
+        font-size: 3.7rem !important;text-align:right; /* align right for larger screens */
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        bottom: 12em;border: 5px solid #2cc2df!important;
+    }
+}
+
+
+
+
+
+
+
+/************************************************************************************/
+/* ******* Slider ******* */
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+    .slide-content {
+        /*padding: 6em 32em 3em 7em !important;*/
+		padding: 6em 8em 3em 37em !important;
+    }
+
+    .slideshow h2 {
+        font-size: 2.3rem !important;text-align:right; 
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        bottom: 9em;border: 5px solid #2cc2df!important;
+    }
+}
+
+
+
+
+
+/************************************************************************************/
+/* ******* Slider ******* */
+@media screen and (max-width: 1199px) and (min-width: 979px) {
+
+    .slide-content {
+        padding: 6em 7em 3em 30em !important;
+    }
+
+    .slideshow h2 {
+        font-size: 2.1rem !important;line-height: 41px!important;text-align:right; 
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        bottom: 9em;border: 3px solid #2cc2df!important;
+    }
+}
+
+
+/* ******* Slider ******* */
+@media screen and (max-width: 979px) and (min-width:668px) {
+
+    .slide-content {
+        /*padding: 4em 20em 3em 5em !important;*/
+		padding: 1em 4em 7em 20em;
+    }
+
+    .slideshow h2 {
+        font-size: 2.3rem !important;line-height: 41px!important;
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        bottom: 7em;
+        left: auto !important;
+        transform: none !important;
+        font-size: .7em;border: 3px solid #2cc2df!important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .slideshow h2 {
+        text-align: left;
+        font-size: 1.9rem !important;
+    }
+
+    .slide-content {
+        /*padding: 6em 20em 3em 5em !important;*/
+		padding: 4em 2em 3em 26em !important;
+    }
+
+    .slide-desc .btn {
+        bottom: 12em;border: 3px solid #2cc2df!important;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 468px) {
+
+    .slide-content {
+        padding: 1em 2em 7em 18em;
+        text-align: center;
+    }
+	
+	.slideshow h2 {
+        font-size: 2.3rem !important;text-align:right; line-height: 36px!important;margin-bottom: 1rem;/* align right for larger screens */
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        left: 50%;
+       /* transform: translateX(-50%);*/
+        font-size: .5em; border: 5px solid #2cc2df!important;
+    }
+
+    .slideshow, .slide-container, .slide-item, .slide-content {
+        height: 60vw !important;
+    }
+	
+	
+}
+
+@media screen and (max-width: 467px) and (min-width: 320px) {
+
+    .slide-content {
+        padding: 0em 1em 2em 8em!important;
+        text-align: center;text-shadow:none;
+    }
+
+    .slide-desc .btn, .slide-desc button {
+        left: 50%;
+        /*transform: translateX(-50%);*/
+        font-size: 1em!important;
+    padding: .3em 1.1em!important;
+    border: 3px solid #2cc2df!important;
+    }
+
+    .slideshow, .slide-container, .slide-item, .slide-content {
+        height: 60vw !important;
+    }
+	.slideshow h2 {line-height: 31px!important;font-size: 1.8em!important;margin-bottom: 1rem!important;}
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+@media screen and (max-width: 467px) and (min-width: 320px) and (orientation: portrait) {
+}
+
+
+
+
+
+
+.slideshow h2 {
+    color: #7f7f7f!important;
+    font-weight: 600 !important;
+	text-transform: uppercase;
+	font-family: 'Barlow Condensed', sans-serif!important;
+    font-size: 3.5rem;
+	line-height: 52px;
+	margin-bottom: 2rem;text-align: right;
+	
+}
+
+
+
+
+/*slider admin buttons*/
+.slide-admin-container {
+    position: absolute;
+    top: 60px;
+}
+
+
+/*slider height*/
+.slideshow, .slide-container, .slide-item, .slide-content {
+    height: 40vw;
+    overflow: hidden;
+    background-position: top center !important;
+    background-size: cover !important;
+}
+
+/*slider text*/
+.slide-content {
+    /*background-color: rgba(0,0,0,.15);*/
+    color: #fff;
+    /*padding: 17em 4em 3em 4em!important;*/ /* original padding */
+    -webkit-text-shadow: -10px -10px 20px #fff,1px 0 20px #fff,10px 10px 20px #fff,-10px 10px 20px #fff,10px -10px 20px #fff;
+    -ms-text-shadow: -10px -10px 20px #fff,1px 0 20px #fff,10px 10px 20px #fff,-10px 10px 20px #fff,10px -10px 20px #fff;
+    -o-text-shadow: -10px -10px 20px #fff,1px 0 20px #fff,10px 10px 20px #fff,-10px 10px 20px #fff,10px -10px 20px #fff;
+    text-shadow: -10px -10px 20px #fff,1px 0 20px #fff,10px 10px 20px #fff,-10px 10px 20px #fff,10px -10px 20px #fff;
+    vertical-align: middle
+}
+
+/*slide link button*/
+
+.slide-desc .btn, .slide-desc button {
+    -webkit-text-shadow: none;
+    -ms-text-shadow: none;
+    -o-text-shadow: none;
+    text-shadow: none;
+    font-size: 1.1em;
+	font-weight:500;
+    text-transform:uppercase;
+    padding: .4em 1.5em;
+	font-family: 'Barlow Condensed', sans-serif!important;
+    color: #293589!important;
+    background-color: #fff!important;
+	border: 5px solid #2cc2df;
+	float: right;  /* for desktop*/
+    /*position: absolute;*/  /* hiding for desktop*/
+    display: none; /* ----hides the button on the homeslider------------*/
+}
+
+
+
+
+.slide-desc .btn-primary:hover{
+	border: 5px solid #293589!important;
+}
+
+
+
+
+/*slider nav*/
+.prev, .next {
+    color: rgba(255,255,255,0.5);
+    font-size: 25px;
+    font-size: 3em;
+    font-size: 3rem;
+    margin-top: -22px;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: .10s all ease-in-out;
+    -ms-transition: .10s all ease-in-out;
+    -o-transition: .10s all ease-in-out;
+    transition: .10s all ease-in-out;
+    width: auto;
+    opacity: 0
+}
+
+
+
+
+.slide-arrows button,
+.slide-nav button {
+    background: transparent;
+    border: 0;
+}
+
+.slideshow-container:hover .prev, .slideshow-container:hover .next {
+    opacity: 0.6 !important; /* ----  makes the arrows transparent ------------*/
+}
+
+.next {
+    right: 0
+}
+
+    /*arrows*/
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.2) !important;
+        color: #f3f5f4 !important;
+    }
+
+.slide-number-text {
+    color: #f2f2f2;
+    opacity: .25;
+    padding: 8px 12px;
+    position: absolute;
+    top: 8px;
+    text-align: center;
+    width: 100%
+}
+
+.dot {
+    color: #eee;
+    opacity: .55;
+    -webkit-transition: .10s all ease-in-out;
+    -ms-transition: .10s all ease-in-out;
+    -o-transition: .10s all ease-in-out;
+    transition: .10s all ease-in-out
+}
+
+.slide-nav {
+    margin: 0 !important;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 100%
+}
+
+    .slide-nav li {
+        display: inline-block
+    }
+
+    .slide-nav button, .slide-nav .btn {
+        padding: 5px
+    }
+
+.active {
+    color: #f3f5f4 !important;
+}
+
+.dot.active, .dot:hover {
+    opacity: 1 !important;
+}
+
+/*slide transition*/
+.slide-left {
+    -webkit-animation-name: slide-left;
+    -webkit-animation-duration: .75s;
+    -ms-animation-name: slide-left;
+    -ms-animation-duration: .75s;
+    -o-animation-name: slide-left;
+    -o-animation-name: .75s;
+    animation-name: slide-left;
+    animation-duration: .75s;
+    -webkit-transition: all ease-in-out;
+    -ms-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
+    transition: all ease-in-out
+}
+
+@-webkit-keyframes slide-left {
+    from {
+        left: 50%;
+        opacity: .33
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-ms-keyframes slide-left {
+    from {
+        left: 50%;
+        opacity: .33
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-o-keyframes slide-left {
+    from {
+        left: 50%;
+        opacity: .33
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes slide-left {
+    from {
+        left: 50%;
+        opacity: .33
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.slide-right {
+    -webkit-animation-name: slide-right;
+    -webkit-animation-duration: .75s;
+    -ms-animation-name: slide-right;
+    -ms-animation-duration: .75s;
+    -o-animation-name: slide-right;
+    -o-animation-name: .75s;
+    animation-name: slide-right;
+    animation-duration: .75s;
+    -webkit-transition: all ease-in-out;
+    -ms-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
+    transition: all ease-in-out
+}
+
+@-webkit-keyframes slide-right {
+    from {
+        right: 50%;
+        opacity: .33
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+@-ms-keyframes slide-right {
+    from {
+        right: 50%;
+        opacity: .33
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+@-o-keyframes slide-right {
+    from {
+        right: 50%;
+        opacity: .33
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+@keyframes slide-right {
+    from {
+        right: 50%;
+        opacity: .33
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.slideshow .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-name: fade;
+    -ms-animation-duration: 1.5s;
+    -o-animation-name: fade;
+    -o-animation-name: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -webkit-transition: all ease-in-out;
+    -ms-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
+    transition: all ease-in-out
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .25
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes fade {
+    from {
+        opacity: .25
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fade {
+    from {
+        opacity: .25
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .25
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media screen and (max-width: 800px) {
+}
+
+/* ******* Custom Buttonr ******* */
+
+.blue {
+    background: #242c65 !important;
+}
+
+.cust-btn {
+    margin: 0 5px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap;
+    padding: 0 35px;
+    font-size: 25px;
+    line-height: 50px;
+    color: #ffffff !important;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    background: rgba(36, 44, 101, 0.8);
+    text-decoration: none;
+}

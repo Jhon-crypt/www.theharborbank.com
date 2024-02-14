@@ -1,0 +1,65 @@
+/******************************************speeeeeed**************************/
+
+.SpdbmpMdl h1, .UnscrEmlMdl h1, .SpdbmpMdl2 h1{color:#ffffff!important;} 
+.SpdbmpMdl p, .UnscrEmlMdl p, .SpdbmpMdl2 p{color:#ffffff!important;} 
+.SpdbmpMdl a, .UnscrEmlMdl a, .SpdbmpMdl2 a{color:#8dc63f!important;}
+.SpdbmpMdl strong, .UnscrEmlMdl strong, .SpdbmpMdl2 strong{color:#8dc63f!important;font-weight:900!important;}
+.SpdbmpMdl a:hover, .UnscrEmlMdl a:hover, .SpdbmpMdl2 a:hover{color:#ffffff!important;}
+.SpdbmpMdlFd, .UnscrEmlMdlFd, .SpdbmpMdlFd2 {
+    background: url("../../../../FirstMissouriBank/Skins/FirstMissouri/modal/Black80.html") repeat scroll left top rgba(0, 0, 0, 0);
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.SpdbmpMdl, .UnscrEmlMdl, .SpdbmpMdl2 {
+    background:#00234F;
+    border-radius: 5px;
+	border:5px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: block;
+    left: 50%;
+    margin: -125px 0 0 -300px;
+    padding: 30px 40px 34px;
+    position: fixed;
+    text-align: left;
+    top: -50%;
+    width: 520px;
+    z-index: 99999;
+}
+@media (max-width:480px){
+	.SpdbmpMdl, .UnscrEmlMdl, .SpdbmpMdl2 {
+		width:238px;
+		margin-left:-255px;
+		padding: 30px 34px 34px;
+		left:80%;
+		text-align:center;
+		top:23%;
+		/*margin-top:-221px;*/
+		}
+	.SpdbmpMdl p, .UnscrEmlMdl p, .SpdbmpMdl2 p{line-height:19px;}
+	.SpdbmpMdl h1, .UnscrEmlMdl h1, .SpdbmpMdl2 h1{font-size:2em;}	
+	
+	}
+.SpdbmpMdl .SpdbmpMdlCls, .UnscrEmlMdl .UnscrEmlMdlCls, .SpdbmpMdl2 .SpdbmpMdlCls {
+    color: #aaaaaa;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+@media (max-width: 768px){
+	.SpdbmpMdl, .UnscrEmlMdl, .SpdbmpMdl2{top:-100%;}
+	
+	}

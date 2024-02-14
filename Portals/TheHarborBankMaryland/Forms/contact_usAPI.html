@@ -1,0 +1,482 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Mirrored from www.theharborbank.com/portals/theharborbankmaryland/Forms/contact_usAPI.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2024 00:45:57 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Contact Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" rel="stylesheet">
+
+    <script src="../../../../code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://www.fws-weblink.com/api/ContactApi/Script" type="text/javascript" crossorigin="anonymous"></script>
+	
+
+
+    <style type="text/css">
+        body {
+            background: transparent;
+            color: #413e3f;
+            margin: 0;
+            /*padding: 1em;*/
+            font-size: 12px;
+            line-height: 1.1em;
+            text-align: left;
+            font-family: Arial, Arial, Helvetica, sans-serif;
+        }
+
+        .honeypotTrap {
+            display: none;
+        }
+
+        input {
+            font-size: 12px;
+        }
+
+        a:link, a:visited {
+            color: #0077c0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover, a:active {
+            color: #0077c0;
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin: 0 0 5px 0;
+            padding: 0;
+            color: #000;
+            font-size: 1.6em;
+            font-weight: normal; /*pad top*/
+        }
+
+        h2 {
+            clear: both;
+            color: #000;
+            margin: 0px 0 8px 0;
+            padding-top: 15px;
+            font-size: 1.4em;
+            font-weight: normal; /*pad top*/
+        }
+
+        .content h2:first-child {
+            padding-top: 0;
+        }
+
+        h3 {
+            color: #000;
+            margin: 0 0 6px 0;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+
+        h4 {
+            color: #333;
+            margin: 0 0 4px 0;
+            font-size: 1em;
+            font-weight: normal;
+        }
+
+        p {
+            padding: 0 0 12px 0;
+        }
+
+        hr {
+            background: #000;
+            border: 0;
+            color: #000;
+            height: 1px;
+            margin: 10px 0;
+        }
+
+        ol li {
+            list-style-type: decimal;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        /* tables still need 'cellspacing="0"' in the markup */
+        table {
+            font-size: 100%;
+        }
+        /* IE inheritance fix */
+        ins {
+            text-decoration: none;
+            border-bottom: 1px dotted;
+        }
+        /* remember to highlight inserts somehow! */
+        del {
+            text-decoration: line-through;
+        }
+
+        abbr[title] {
+            text-decoration: none !important;
+        }
+        /* --------------------------------------------------------- =CLEAR =FLOATS/=FIXS */
+
+        .clearfloat {
+            clear: both;
+            height: 1px;
+        }
+
+        .clear0 {
+            height: 0;
+            clear: both;
+        }
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .clearfix {
+            display: inline-block;
+        }
+        /* Hides from IE-mac */
+        * html .clearfix {
+            height: 1%;
+        }
+
+        .clearfix {
+            display: block;
+        }
+        /* End hide from IE-mac */
+        label {
+            display: block;
+            margin: 15px 0 0 0;
+            font-size: 1.15em;
+            font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .appfield1 {
+            border: 1px solid #767575;
+            background: #fefefe;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            margin: 4px 0;
+            padding: 5px;
+            width: 95%;
+        }
+        /* --- 	This is your FOCUS style, when you click into an input field --- */
+        .appfield2 {
+            border: 1px solid #767575;
+            background: #fefefe;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            margin: 4px 0;
+            padding: 5px;
+            width: 95%;
+        }
+
+        .appfield3 {
+            width: 97%;
+        }
+
+        .appfield4 {
+            width: 95% !important;
+        }
+
+        .appfield5 {
+            width: 122px !important;
+        }
+
+        .required {
+            color: #50B948;
+        }
+
+        .submitBtn {
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            font-family: 'Lato', sans-serif;
+            color: #ffffff !important;
+            font-size: 1.25em;
+            background: #123456;
+            padding: 11px 19px;
+            text-decoration: none !important;
+            font-weight: normal;
+            border: 1px solid #123456;
+            cursor: pointer;
+			margin-top:10px;
+        }
+
+        .astersisk {
+            font-size: 1.3em;
+            color: #900;
+        }
+        /* --------------------------------------------------------- =TABLES */
+
+        /* table { width: 100%; } */
+
+        .tableheader {
+            background: #0077c0;
+            color: #fff;
+            font-weight: bold;
+            padding: 3px 6px;
+            font-size: inherit;
+        }
+
+        th {
+            border-bottom: 1px solid #fff;
+            background-color: #50b948;
+            color: #fff;
+            text-align: left;
+            padding: 3px 6px;
+            font-size: 14px;
+        }
+
+        .contentInner th {
+            font-size: 14px;
+        }
+
+        .tablecontent1 td {
+            border-bottom: 1px solid #fff;
+            background-color: #fefefe;
+            padding: 3px 6px;
+            font-size: inherit;
+        }
+
+        .tablecontent2 td {
+            border-bottom: 1px solid #fff;
+            background-color: #ddd;
+            padding: 3px 6px;
+            font-size: inherit;
+        }
+
+        .tdCodeword {
+            padding-right: 8em;
+        }
+
+        .contentTabs {
+            display: block;
+            clear: both;
+        }
+
+            .contentTabs .tabs li {
+                font-size: .9em;
+                text-align: center;
+                width: 49.75%;
+                margin: 0 auto;
+                padding: 6px 0;
+                float: left;
+                display: inline-block;
+                background: #efefef;
+                border-left: 2px #fff solid;
+            }
+
+            .contentTabs .tabs.tabs3 li {
+                width: 32.99%;
+            }
+
+            .contentTabs .tabs li a {
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .contentTabs .tabs li.active {
+                background: #DEDFE0;
+                border-left: none;
+            }
+
+                .contentTabs .tabs li.active a, .contentTabs .tabs li.active a:link, .contentTabs .tabs li.active a:visited, .contentTabs .tabs li.active a:hover, .contentTabs .tabs li.active a:active {
+                    color: #000;
+                    text-decoration: none;
+                }
+
+        .tabbedContent {
+            display: none;
+            margin-bottom: 12px;
+            padding: 20px; /*background: #DEDFE0 url(../images/bg_table.png) repeat-x bottom;*/
+        }
+
+        .tabbedContentNoPadding {
+            padding: 0;
+        }
+
+        .tabbedContent.active {
+            display: block
+        }
+
+        .tabbedContent ul {
+            margin-top: 20px;
+        }
+
+            .tabbedContent ul li {
+                background: none;
+                list-style-type: disc;
+                margin-left: 10px;
+            }
+        /* ================================================================================================= */
+        /* == REMOVE FROM DIML FILE (START) ================================================================ */
+        /* ================================================================================================= */
+
+        /* !!!!!!!!
+	 * Place the following styles in wc_styles.css or delete if already added from another form.
+	 * These styles must be in wc_styles.css so the confirmation page can use them as well.
+	 * !!!!!!!!
+	 */
+        body {
+            background-color: transparent;
+        }
+
+        h2.main_page_title {
+            text-align: center;
+        }
+
+        .col1 {
+            text-align: right;
+            vertical-align: top;
+            padding-top: .5em; /*	font-size: 10pt; /* uncomment if needed */
+        }
+
+        .col2 {
+            vertical-align: top; /*	font-size: 10pt; /* uncomment if needed */
+        }
+
+        .selected {
+            color: #000099;
+            font-weight: bold;
+        }
+        /* validation test link (appears in top right) - move this to wc_styles.css or delete */
+        .validationTestLink {
+            display: block;
+            width: 100px;
+            height: 1.5em;
+            position: fixed;
+            top: 0;
+            right: 0;
+            border: 3px double black;
+            text-align: center;
+            background-color: white;
+        }
+
+        .bValidationTestLink {
+            display: block;
+            width: 130px;
+            height: 1.5em;
+            position: fixed;
+            top: 1.5em;
+            right: 0;
+            border: 3px double black;
+            text-align: center;
+            background-color: white;
+        }
+
+        * html .validationTestLink {
+            position: absolute;
+        }
+
+        *:first-child + html .validationTestLink {
+            position: absolute;
+        }
+
+        * html .bValidationTestLink {
+            position: absolute;
+        }
+
+        *:first-child + html .bValidationTestLink {
+            position: absolute;
+        }
+
+        p#stagingForm {
+            margin: 0;
+            padding: 3px 0;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            width: 200px;
+            height: 20px;
+            text-align: center;
+            background-color: #72B12C;
+            color: #ffffff;
+            font-weight: bold;
+            border-top-left-radius: 7px;
+            -moz-border-radius-topleft: 7px;
+            -webkit-border-top-left-radius: 7px;
+        }
+        /* ================================================================================================= */
+        /* == REMOVE FROM DIML FILE (END) ================================================================== */
+        /* ================================================================================================= */
+
+
+        /* 
+	 * Keep these styles in this form's CSS.  Do not move these to wc_styles.css
+	 * Also, copy the following styles to the confirmation page styles (below form HTML)
+	 */
+        .col1 {
+            width: 40%; /* adjust as needed */
+        }
+
+        .doubleCell {
+            padding: 0 15%;
+        }
+		.form-response{font-size:1.5em;color:#3265a5;line-height:25px;}
+    </style>
+
+</head>
+<body>
+
+    <div data-action="true">
+        <input id="bankname" name="BankName" type="hidden" value="Harbor Bank of Maryland" />
+        <input id="Formname" name="FormName" type="hidden" value="Contact Form" />
+
+        <label for="Name">Full Name:
+        <abbr title="required" class="astersisk">*</abbr></label>
+        <input name="Name" id="Name" type="text" class="appfield1" required="" />
+        
+		<!-- / -->
+		<label for="Email">Email Address:<abbr title="required" class="astersisk">*</abbr></label>
+        <input name="Email" id="Email" type="text" class="appfield1" aria-required="true" pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$" required />
+        <label for="Telephone">Phone:<abbr title="required" class="astersisk">*</abbr></label>
+        <input name="Telephone" id="Telephone" type="text" class="appfield1" aria-required="true" required pattern="^[0-9-+s()]*$" />
+        
+		<!-- / -->
+		<label for="Company">Company:
+        
+        <input name="Company" id="Company" type="text" class="appfield1" />
+		
+		
+		<!-- / -->
+
+		<!--<label for="dept">Department?</label>
+        <select name="Department" id="dept" class="appfield1 appfield3">
+            <option value="2067">Loans</option>
+            <option value="2068">Mortgage</option>
+            <option value="2069">General</option>
+        </select>-->
+        <label for="Message">Message:</label>
+        <textarea class="appfield1 appfield4" id="Message" rows="4" name="Message" style="width: 97%;" placeholder="Message" ></textarea>
+
+        <div style="text-align: left;">
+
+            <div style="text-align: left;">
+                <img style="border: 2px solid black;" id="imgCaptcha" alt="" data-name="imgCaptcha" /><br />
+                <a onclick="RefreshAllImages()" href="javascript:void(0)">Change Image</a><br />
+            </div>
+            <div style="text-align: left;padding-bottom:10px;">
+                <label>*Type the characters from the image above<em>*</em></label>
+				<div style="height:9px;clear:both;"></div>
+                <input type="text" onblur="this.className ='appfield';" onfocus="this.className = 'appfield2';" class="appfield" size="10" id="captchacode" name="captchacode" autocomplete="off" style="height:25px;"/>
+            </div>
+
+            <input type="submit" value="Submit" class="submitBtn" />
+            <input type="hidden" value="Thank you for contacting The Harbor Bank of Maryland. Someone will contact you shortly." name="thankyoutext"/>
+        </div>
+    </div>
+
+
+
+</body>
+
+<!-- Mirrored from www.theharborbank.com/portals/theharborbankmaryland/Forms/contact_usAPI.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2024 00:45:58 GMT -->
+</html>

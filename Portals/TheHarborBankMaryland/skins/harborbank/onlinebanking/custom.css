@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1074px) { 
+		/*#login.showForLarge {
+		display:none;
+	}
+	*/
+}
+
+@media only screen and (min-width: 1075px) { 
+	/*#login.hideForLarge {
+		display:none;
+	}
+	*/
+}
+
+#login.hideForLarge {display:none;}
