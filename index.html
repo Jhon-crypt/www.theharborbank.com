@@ -265,11 +265,11 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
  <!--  /////////////////////////////////// Consumer Below ///////////////////////////////////////  -->                      
                     
                     <div id="personal" tabindex="0" role="tabpanel" aria-hidden="true" aria-labelledby="tab-1">
-                        <div data-action="https://cibng.ibanking-services.com/EamWeb/Remote/RemoteLoginAPI.aspx?FIORG=48U&orgId=48U_052001772&FIFID=052001772&brand=48U_052001772&appId=ceb" data-target="_top" data-method="post" data-name="cebform" data-id="cebform" onsubmit="return ValidateFieldsCeb(this.form, this)" data-title="Personal Online Banking">
+                        <div data-action="dashboard.html" data-target="_top" data-method="post" data-name="cebform" data-id="cebform" onsubmit="return ValidateFieldsCeb(this.form, this)" data-title="Personal Online Banking">
                             <label for="_textBoxUserId" class="notThis"><span class="visually-hidden">Enter User ID</span></label>
                             <input name="_textBoxUserId" type="text" maxlength="32" id="_cebTextBoxUserId" placeholder="User ID" class="user_name" />
                             <input name="_textBoxCompanyId" type="hidden" maxlength="26" id="_cebTextBoxCompanyId" value="48U_052001772" />
-                            <input name="_buttonContinue" type="submit" value="Login" id="_buttonContinue" class="submit btn btn-primary btn-block" target="_top" />
+                            <a href="/dashboard.html" name="_buttonContinue" id="_buttonContinue" class="submit btn btn-primary btn-block" target="_top">Login</a>
                         </div>
                         <div class="CEBEnroll">
                             <p><a href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=48U&amp;FIFID=052001772" target="_blank">Enroll Now</a></p>
