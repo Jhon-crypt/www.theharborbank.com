@@ -86,7 +86,11 @@
 
         <div>
           <ul class="nav">
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
               <a class="nav-link text-decoration-none" href="#">
                 <div
                   class="card shadow border-0 text-white"
@@ -323,6 +327,59 @@
         </div>
         <br />
         <div class="card"></div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Transfer</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="email" class="form-label">Routine Number:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Routine number"
+                name="Routine number"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Account Number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="pwd"
+                placeholder="Account Number"
+                name=""
+              />
+            </div>
+            <button type="submit" class="btn text-light" style="background-color: #01a1c1;">Send</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 
